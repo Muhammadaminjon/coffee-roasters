@@ -4,52 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coffee Reosters</title>
-    <link rel="shortcut icon" href="./images/png/site-title-logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/main.css">
+    <title>Home</title>
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="./images/svg/site-favicon.svg" type="image/x-icon">
+    <!-- CSS STYLES -->
+    <!-- <link rel="stylesheet" href="./css/normalize.css"> -->
+    <!-- <link rel="stylesheet" href="./css/main.css"> -->
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
     <!-- HEADER -->
-    <header class="header">
-
+    <header class="site-header">
         <!-- HEADER TOP -->
-        <div class="header-top">
-            <div class="container header-top__container">
-                <a class="site-logo" href="./index.html">
-                    <img class="site-logo__img" src="./images/svg/site-logo.svg" alt="site-logo" width="235" height="24">
-                </a>
-                <nav class="sitenav">
-                    <ul class="sitenav__list">
-                        <li class="sitenav__item">
-                            <a class="sitenaav__link" href="./index.html">HOME</a>
-                        </li>
-                        <li class="sitenav__item">
-                            <a class="sitenaav__link" href="#">ABOUT US</a>
-                        </li>
-                        <li class="sitenav__item">
-                            <a class="sitenaav__link" href="#">Create your plan</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+        <div class="site-header-top">
+            <a href="./index.html" class="header-top-logo">
+                <img src="./images/svg/site-logo.svg" width="235" height="24" alt="site logo" class="header-top-logo-img ">
+            </a>
+            <ul class="header-top-list">
+                <!-- HEADER TOP ITEM 1 -->
+                <li class="site-header-item">
+                    <a href="./index.html" class="header-top-link">
+                        HOME                        
+                    </a>
+                </li>
+                <!-- HEADER TOP ITEM 1 END -->
+                
+                <!-- HEADER TOP ITEM 2 -->
+                <li class="site-header-item">
+                    <a href="./html/about.html" class="header-top-link">
+                        ABOUT US
+                    </a>
+                </li>
+                <!-- HEADER TOP ITEM 2 END --> 
+                
+                <!-- HEADER TOP ITEM 3 -->
+                <li class="site-header-item">
+                    <a href="./html/create.html" class="header-top-link">
+                        Create your plan
+                    </a>
+                </li>
+                <!-- HEADER TOP ITEM 3 END --> 
+            </ul>
         </div>
-        <!-- HEADER TOP END-->
+        <!-- HEADER TOP END -->
 
-        <!-- HADER BOTTOM -->
+        <!-- HEADER BOTTOM -->
         <div class="header-bottom">
-            <div class="container header-bottom__container">
-                <div class="header-bottom__home-text-wrapper">
-                    <h1 class="header-bottom__title">Good coffee<br> is made simply.</h1>
-                    <p class="header-bottom__text">Start your mornings with the world’s best coffees. Try our expertly curated artisan coffees from our best roasters delivered directly to your door, at your schedule.</p>
-                    <a class="header-bottom__btn primary-btn" href="#">Create your plan</a>
+            <div class="header-bottom-text-wrapper">
+                <h1 class="header-bottom-title">
+                    Good coffee<br> is made simply.
+                </h1>
+                <p class="header-bottom-text">
+                    Start your mornings with the world’s best coffees. Try our expertly curated artisan coffees from our best roasters delivered directly to your door, at your schedule.
+                </p>
+                <button class="site-btn header-bootom-btn">
+                    Create your plan
+                </button>
+            </div>
+            <div class="img-wrapper">
+                <div class="header-bottom-img-box">
+                    <img src="./images/jpg/header-bottom-img.jpg" alt="cofe icecream" class="header-bottom-img" width="710"height="696"
+                    srcset="./images/jpg/header-bottom-img.jpg 1x, 
+                    ./images/jpg/header-bottom-img@2x.jpg 2x">
                 </div>
-                <div class="header-bottom__img-wrapper">
-                    <img class="header-bottom__round-img" src="./images/png/header-round-img.png" alt="but first coffee" srcset="./images/png/header-round-img.png 1x, ./images/png/header-round-img@2x.png 2x">
-                </div>
+                <img src="./images/png/site-circle.png" alt="" class="header-bottom-circle-img" width="213" height="214" 
+                srcset="./images/png/site-circle.png 1x, 
+                ./images/png/site-circle@2x.png 2x">
             </div>
         </div>
-        <!-- HADER BOTTOM END --> 
+    <!-- HEADER BOTTOM END -->
+
     </header>
     <!-- HEADER END -->
 
@@ -58,51 +82,58 @@
         <!-- COLLECTION -->
         <div class="collection">
             <div class="container">
-                <div class="collection__inner">
-                    <h2 class="sectoin__title collectoin__title">our collection</h2>
-                    <ul class="collection__list">
+                <div class="collection-inner">
+                    <h2 class="collection-title">our collection</h2>
+                    <ul class="collection-list">
                         <!-- COLLECTION ITEM 1 -->
-                        <li class="collectoin__item">
-                            <img class="collectoion__item-img" src="./images/png/danche-img.png" 
-                            srcset="./images/png/danche-img.png 1x, ./images/png/danche-img.png 2x" 
-                            alt="danche img" width="450" height="375">
-                            <div class="collection__item-text-wrapper">
-                                <h3 class="collection__item-title">Danche</h3>
-                                <p class="collection__item-text">Ethiopian hand-harvested blend densely packed with vibrant fruit notes.</p>
-                            </div>
+                        <li class="collection-item">
+                                <img src="./images/png/paper-one.png" alt="paper one" class="collection-item__img-one" 
+                                srcset="./images/png/paper-one.png 1x, 
+                                ./images/png/paper-one@2x.png 2x">
+                                <div class="collection-item__text-wrapper">
+                                    <h3 class="collection-item__title">Danche</h3>
+                                    <p class="collection-item-text">Ethiopian hand-harvested blend densely packed with vibrant fruit notes.</p>
+                                </div>
                         </li>
+                        <!-- COLLECTION ITEM 1 END -->
                         <!-- COLLECTION ITEM 2 -->
-                        <li class="collectoin__item">
-                            <img class="collectoion__item-img" src="./images/png/espresso-img.png"
-                            srcset="./images/png/espresso-img.png 1x,  ./images/png/espresso-img@2x.png 2x"   alt="danche img" width="450" height="375">
-                            <div class="collection__item-text-wrapper">
-                                <h3 class="collection__item-title">Gran Espresso</h3>
-                                <p class="collection__item-text">Light and flavorful blend with cocoa and black pepper for an intense experience.</p>
-                            </div>
+                        <li class="collection-item">
+                                <img src="./images/png/paper-two.png" alt="paper one" class="collection-item__img-two" 
+                                srcset="./images/png/paper-two.png 1x, 
+                                ./images/png/paper-two@2x.png 2x">
+                                <div class="collection-item__text-wrapper">
+                                    <h3 class="collection-item__title">Gran Espresso</h3>
+                                    <p class="collection-item-text">Light and flavorful blend with cocoa and black pepper for an intense experience.</p>
+                                </div>
                         </li>
+                        <!-- COLLECTION ITEM 2 END -->
                         <!-- COLLECTION ITEM 3 -->
-                        <li class="collectoin__item">
-                            <img class="collectoion__item-img" src="./images/png/piccollo-img.png"
-                            srcset="./images/png/piccollo-img.png 1x,  ./images/png/piccollo-img@2x.png 2x" alt="danche img" width="450" height="375">
-                            <div class="collection__item-text-wrapper">
-                                <h3 class="collection__item-title">Piccollo</h3>
-                                <p class="collection__item-text">Mild and smooth blend featuring notes of toasted almond and dried cherry.</p>
-                            </div>
+                        <li class="collection-item">
+                                <img src="./images/png/paper-three.png" alt="paper one" class="collection-item__img-three" 
+                                srcset="./images/png/paper-three.png 1x, 
+                                ./images/png/paper-three@2x.png 2x">
+                                <div class="collection-item__text-wrapper">
+                                    <h3 class="collection-item__title">Piccollo</h3>
+                                    <p class="collection-item-text">Mild and smooth blend featuring notes of toasted almond and dried cherry.</p>
+                                </div>
                         </li>
+                        <!-- COLLECTION ITEM 3 END -->
                         <!-- COLLECTION ITEM 4 -->
-                        <li class="collectoin__item">
-                            <img class="collectoion__item-img" src="./images/png/planalto-img.png" 
-                            srcset="./images/png/planalto-img.png 1x,  /images/png/planalto-img@2x.png 2x" alt="danche img" width="450" height="375">
-                            <div class="collection__item-text-wrapper">
-                                <h3 class="collection__item-title">Planalto</h3>
-                                <p class="collection__item-text">Brazilian dark roast with rich and velvety body, and hints of fruits and nuts.</p>
-                            </div>
+                        <li class="collection-item">
+                                <img src="./images/png/paper-fourth.png" alt="paper one" class="collection-item__img-fourth" 
+                                srcset="./images/png/paper-fourth.png 1x, 
+                                ./images/png/paper-fourth@2x.png 2x">
+                                <div class="collection-item__text-wrapper">
+                                    <h3 class="collection-item__title">Planalto</h3>
+                                    <p class="collection-item-text">Brazilian dark roast with rich and velvety body, and hints of fruits and nuts.</p>
+                                </div>
                         </li>
+                        <img src="./images/svg/collection-top-leaf.svg" alt="" class="collection-left-top-leaf">
+                        <img src="./images/svg/collection-bottom-leaf.svg" alt="" class="collection-left-bottom-leaf">
+                        <img src="./images/svg/collection-right-bottom-leaf.svg" alt="" class="collection-right-bottom-leaf">
+                        <img src="./images/svg/collection-right-top-leaf.svg" alt="" class="collection-right-top">
+                        <!-- COLLECTION ITEM 4 END -->
                     </ul>
-                    <img class="collection__left-leaf" src="./images/png/left-leaf.png" alt="left-leaf" width="402" height="300">
-                    <img class="collection__left-lite-leaf" src="./images/png/left-lite-leaf.png" alt="left-lite-leaf" width="316" height="269">
-                    <img class="collection__right-leaf" src="./images/png/right-leaf.png" alt="right-leaf" width="397" height="477">
-                    <img class="collection__right-lite-leaf" src="./images/png/right-lite-leaf.png" alt="right-lite-leaf" width="253" height="215">
                 </div>
             </div>
         </div>
@@ -110,125 +141,148 @@
 
         <!-- CHOOSE -->
         <div class="choose">
-            <div class="container">
-                <div class="choose__inner">
-                    <h2 class="choose__title sectoin__title">Why choose us?</h2>
-                    <p class="choose__text">A large part of our role is choosing which particular coffees will be featured in our range. This means working closely with the best coffee growers to give you a more impactful experience on every level.</p>
-                    <ul class="choose__list">
+            <div class="container choose-container">
+                <h2 class="choose-title">Why choose us?</h2>
+                <p class="choose-text">A large part of our role is choosing which particular coffees will be featured 
+                    in our range. This means working closely with the best coffee growers to give 
+                    you a more impactful experience on every level.</p>
+                    <ul class="choose-list">
                         <!-- CHOOSE ITEM 1 -->
-                        <li class="choose__item">
-                            <div class="choose__item-img-wrapper">
-                                <img class="choose__item-img" src="./images/jpg/quality-img.jpg" alt="quality img" srcset="./images/jpg/quality-img.jpg 1x, ./images/jpg/quality-img@2x.jpg 2x" width="433" height="500">
+                        <li class="choose-item">
+                            <div class="choose-img-box">
+                                <img src="./images/jpg/choose-one.jpg" alt="cofee" class="choose-img-one" 
+                                srcset="./images/jpg/choose-one.jpg 1x, 
+                                ./images/jpg/choose-one@2x.jpg 2x">
                             </div>
-                            <h3 class="choose__item-title">Best quality</h3>
-                            <p class="choose__item-text">Discover an endless variety of the world’s best artisan coffee from each of our roasters.</p>
+                            <h3 class="choose-item-title">Best quality</h3>                         
+                            <p class="choose-item-text">Discover an endless variety of the world’s best artisan coffee from each of our roasters.</p>
                         </li>
                         <!-- CHOOSE ITEM 2 -->
-                        <li class="choose__item">
-                            <div class="choose__item-img-wrapper">
-                                <img class="choose__item-img" src="./images/jpg/benefits-img.jpg" alt="benefits img" srcset="./images/jpg/benefits-img.jpg 1x, ./images/jpg/benefits-img@2x.jpg 2x" width="433" height="500">
-                            </div>
-                            <h3 class="choose__item-title">Exclusive benefits</h3>
-                            <p class="choose__item-text">Special offers and swag when you subscribe, including 30% off your first shipment.</p>
+                        <li class="choose-item">
+                            <div class="choose-img-box">
+                                <img src="./images/jpg/choose-two.jpg" alt="cofee" class="choose-img-one" 
+                                srcset="./images/jpg/choose-two.jpg 1x, 
+                                ./images/jpg/choose-two@2x.jpg 2x">
+                            </div>               
+                            <h3 class="choose-item-title">Exclusive benefits</h3>
+                            <p class="choose-item-text">Special offers and swag when you subscribe, including 30% off your first shipment.</p>
                         </li>
                         <!-- CHOOSE ITEM 3 -->
-                        <li class="choose__item">
-                            <div class="choose__item-img-wrapper">
-                                <img class="choose__item-img" src="./images/jpg/shipping-img.jpg" alt="shipping img" srcset="./images/jpg/shipping-img.jpg 1x, ./images/jpg/shipping-img@2x.jpg 2x" width="433" height="500">
-                            </div>
-                            <h3 class="choose__item-title">Free shipping</h3>
-                            <p class="choose__item-text">We cover the cost and coffee is delivered fast. Peak freshness: guaranteed.</p>
+                        <li class="choose-item">
+                            <div class="choose-img-box">
+                                <img src="./images/jpg/choose-tree.jpg" alt="cofee" class="choose-img-one" 
+                                srcset="./images/jpg/choose-tree.jpg 1x, 
+                                ./images/jpg/choose-tree@2x.jpg 2x">
+                            </div>       
+                            <h3 class="choose-item-title">Free shipping</h3>
+                            <p class="choose-item-text">We cover the cost and coffee is delivered fast. Peak freshness: guaranteed.</p>
                         </li>
-                        <img class="choose__icon" src="./images/svg/choose-icon.svg" alt="words icon"
-                        width="140" height="144">
+                        <img src="./images/svg/choose-logo.svg" alt="" class="choose-logo">
                     </ul>
-                </div>
             </div>
         </div>
         <!-- CHOOSE END -->
-
-        <!-- FEATURES -->
-        <div class="features">
-            <div class="container">
-                <div class="features__inner">
-                    <h2 class="features__title sectoin__title">How it works</h2>
-                    <ul class="features__list">
-                        <hr class="features__hr">
-                        <!-- FEATURES ITEM 1 -->
-                        <li class="features__item">
-                            <span class="features__item-box"></span>
-                            <div class="features__item-content">
-                                <h2 class="features__item-number">01</h2>
-                                <h2 class="features__item-title">Pick your coffee</h2>
-                                <p class="features__item-text">Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
-                            </div>
-                        </li>
-                        <!-- FEATURES ITEM 2 -->
-                        <li class="features__item">
-                            <span class="features__item-box"></span>
-                            <div class="features__item-content">
-                                <h2 class="features__item-number">02</h2>
-                                <h2 class="features__item-title">Choose the frequency</h2>
-                                <p class="features__item-text">Customize your order frequency, quantity, even your roast style and grind type. Pause, skip or cancel your subscription with no commitment through our online portal.</p>
-                            </div>
-                        </li>
-                        <!-- FEATURES ITEM 3 -->
-                        <li class="features__item">
-                            <span class="features__item-box"></span>
-                            <div class="features__item-content">
-                                <h2 class="features__item-number">03</h2>
-                                <h2 class="features__item-title">Receive and enjoy!</h2>
-                                <p class="features__item-text">We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning world-class coffees curated to provide a distinct tasting experience.</p>
-                            </div>
-                        </li>
-                    </ul>
-                    <a class="features-btn secondary-btn" href="#">Create your plan</a>
-                    <img class="features__icon" src="./images/svg/features-icon.svg" alt="ball words" width="227" height="192">
-                </div>
+        
+        <!-- FUTURES -->
+        <div class="futures">
+            <div class="futures-container">
+                <h2 class="futures-title">How it works</h2>
+                <ul class="futures-list">
+                    <img src="./images/png/hr.png" alt="hr" class="futures-hr" 
+                    srcset="./images/png/hr.png 1x, 
+                    ./images/png/hr@2x.png 2x">
+                    <!-- FUTURE-ITEM 1 -->
+                    <li class="futures-item">
+                        <img src="./images/jpg/futures-item-img.jpg" alt="kvadrat" class="futures-item__img"
+                        srcset="./images/jpg/futures-item-img.jpg 1x, 
+                        ./images/jpg/futures-item-img@2x.jpg 2x">
+                        <div class="futures-item__box">
+                            <p class="futures-item-number">01</p>
+                            <p class="futures-item-title">Pick your coffee</p>
+                            <p class="futures-item-text">Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
+                        </div>
+                    </li>
+                    <!-- FUTURE-ITEM 2 -->
+                    <li class="futures-item">
+                        <img src="./images/jpg/futures-item-img.jpg" alt="kvadrat" class="futures-item__img"
+                        srcset="./images/jpg/futures-item-img.jpg 1x, 
+                        ./images/jpg/futures-item-img@2x.jpg 2x">
+                        <div class="futures-item__box">
+                            <p class="futures-item-number">02</p>
+                            <p class="futures-item-title">Choose the frequency</p>
+                            <p class="futures-item-text">Customize your order frequency, quantity, even your roast style and grind type. Pause, skip or cancel your subscription with no commitment through our online portal.</p>
+                        </div>
+                    </li>
+                    <!-- FUTURE-ITEM 3 -->
+                    <li class="futures-item">
+                        <img src="./images/jpg/futures-item-img.jpg" alt="kvadrat" class="futures-item__img"
+                        srcset="./images/jpg/futures-item-img.jpg 1x, 
+                        ./images/jpg/futures-item-img@2x.jpg 2x">
+                        <div class="futures-item__box">
+                            <p class="futures-item-number">03</p>
+                            <p class="futures-item-title">Receive and enjoy!</p>
+                            <p class="futures-item-text">We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning world-class coffees curated to provide a distinct tasting experience.</p>
+                        </div>
+                    </li>
+                </ul>
+                <a href="#" class="site-btn futures-btn">
+                    Create your plan
+                </a>
+                <img src="./images/svg/futeres-logo.svg" alt="logo" class="futures-logo">
             </div>
         </div>
-        <!-- FEATURES END -->
+        <!-- FUTURES END -->
+        
     </main>
     <!-- MAIN END -->
 
     <!-- FOOTER -->
     <footer class="footer">
-        <div class="container footer__container">
-            <a class="footer__logo" href="./index.html">
-                <img class="footer__logo-img" src="./images/svg/site-logo.svg" alt="site-logo" width="235" height="24">
-            </a>
-            <nav class="sitenav">
-                <ul class="sitenav__list">
-                    <li class="sitenav__item">
-                        <a class="sitenaav__link" href="./index.html">HOME</a>
+        <div class="container footer-container">
+            <div class="site-header-top">
+                <a href="#" class="header-top-logo">
+                    <img src="./images/svg/site-logo.svg" width="235" height="24" alt="site logo" class="header-top-logo-img ">
+                </a>
+                <ul class="header-top-list">
+                    <!-- HEADER TOP ITEM 1 -->
+                    <li class="site-header-item">
+                        <a href="./index.html" class="header-top-link">
+                            HOME                        
+                        </a>
                     </li>
-                    <li class="sitenav__item">
-                        <a class="sitenaav__link" href="#">ABOUT US</a>
+                    <!-- HEADER TOP ITEM 1 END -->
+                    
+                    <!-- HEADER TOP ITEM 2 -->
+                    <li class="site-header-item">
+                        <a href="./html/about.html" class="header-top-link">
+                            ABOUT US
+                        </a>
                     </li>
-                    <li class="sitenav__item">
-                        <a class="sitenaav__link" href="#">Create your plan</a>
+                    <!-- HEADER TOP ITEM 2 END --> 
+                    
+                    <!-- HEADER TOP ITEM 3 -->
+                    <li class="site-header-item">
+                        <a href="./html/create.html" class="header-top-link">
+                            Create your plan
+                        </a>
                     </li>
+                    <!-- HEADER TOP ITEM 3 END -->
                 </ul>
-            </nav>
-            <ul class="footer__social-media">
-                <li class="footer__social-media-item">
-                    <a class="footer__social-media-link" href="#">
-                        <img class="footer__social-media-img" src="./images/svg/facebook-icon.svg" alt="facebook-icon" width="30" height="30">
+                <div class="footer-icon-box">
+                    <a href="#" class="footer-link">
+                        <img src="./images/svg/facebook.svg" alt="facebook" class="footer-facebook">
                     </a>
-                </li>
-                <li class="footer__social-media-item">
-                    <a class="footer__social-media-link" href="#">
-                        <img class="footer__social-media-img" src="./images/svg/twitter-icon.svg" alt="twitter-icon" width="30" height="30">
+                    <a href="#" class="footer-link">
+                        <img src="./images/svg/twiter.svg" alt="twiter" class="footer-twiter">
                     </a>
-                </li>
-                <li class="footer__social-media-item">
-                    <a class="footer__social-media-link" href="#">
-                        <img class="footer__social-media-img" src="./images/svg/instagram-icon.svg" alt="instagram-icon" width="30" height="30">
+                    <a href="#" class="footer-link">
+                        <img src="./images/svg/instagram.svg" alt="instagram" class="footer-instagram">
                     </a>
-                </li>
-            </ul>
+                </div>
+            </div>
         </div>
     </footer>
     <!-- FOOTER END -->
+    
 </body>
 </html>
